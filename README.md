@@ -1,2 +1,2 @@
 # LyricsDownloader
-A Flask Web App To Download An Artist Songs Lyrics
+A Flask-based Web App To Download An Artist Songs Lyrics in JSON Format

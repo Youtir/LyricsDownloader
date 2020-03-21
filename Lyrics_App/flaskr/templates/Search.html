@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/Seearch.css') }} />
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/materialize.min.css') }} />
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>LYRICS APP</title>
+    
+    
+</head>
+
+<body id="background">
+    <div class="container">
+        <div class="row">
+            <h1 class="white-text" style="font-family:courier;">Your Lyrics Downloader</h1>
+            <form method="post" action='/search'>
+                <div id="marge" >
+                    <div class="input-field col s6">
+                        <input name="artist" placeholder="Download Your Artist Lyrics" type="text">
+                    </div>
+                    <div class="buttonm col s4">
+                        <button id="btnm" class="btn-floating btn-large waves-effect waves-black transparent" type="submit" name="action">
+                            <i class="material-icons ">search</i>
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

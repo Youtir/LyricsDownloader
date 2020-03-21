@@ -1,0 +1,39 @@
+
+#background {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: url('bckg.jpg') no-repeat center center fixed;
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#marge{
+margin-left: 20%;
+}
+.input-field{
+border-bottom: 0px;
+box-shadow: 0 0 0 0;
+border: 2px solid white;
+border-radius: 40px;
+background-color: transparent;
+}
+.buttonm{
+    margin: 14px;
+}
+/* label underline focus color */
+input-field input[type=text]:focus {
+
+   }
+#btnm{
+border: 2px solid white;
+border-radius: 40px;
+}
